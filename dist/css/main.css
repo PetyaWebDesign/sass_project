@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: steelblue;
+  font-family: Arial, Verdana, sans-serif; }
+
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  background-color: steelblue;
+  font-family: Arial, Verdana, sans-serif; }
+
+.inherit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: steelblue;
+  font-family: Arial, Verdana, sans-serif; }

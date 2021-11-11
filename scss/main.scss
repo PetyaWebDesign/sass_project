@@ -1,0 +1,22 @@
+@import 'variables';
+@mixin centerThings ($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+    background-color: $mainColor;
+    font-family: $mainFont;
+}
+
+.hero {
+    @include centerThings(column);
+}
+
+.next {
+    @include centerThings(row);
+}
+
+.inherit {
+    @include centerThings(column);
+}
